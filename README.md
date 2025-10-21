@@ -85,3 +85,6 @@ Specialized Technician in Digital Infrastructures
 [LinkedIn](https://www.linkedin.com/in/youssef-chbiki)
 
 ---
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![Network](https://img.shields.io/badge/Focus-Networking-blue)
+![Security](https://img.shields.io/badge/Security-Enabled-red)
