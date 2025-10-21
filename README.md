@@ -6,43 +6,43 @@
 
 ---
 
-## 📘 Description
-This project demonstrates the **design and deployment of a professional enterprise IT network** for a mid-sized company.  
-It includes **network segmentation, server management, VPN access, and intelligent monitoring**, creating a **secure, scalable, and efficient digital environment**.
+## 📘 Project Overview
+This project presents the **design and deployment of a secure enterprise IT network infrastructure** for a mid-sized organization.  
+It integrates **VLAN segmentation, centralized server management, VPN access, and real-time monitoring**, ensuring a **robust, scalable, and secure digital environment** aligned with modern IT standards.
 
 ---
 
-## 🎯 Objectives
-- Design a **structured LAN with VLAN segmentation** per department  
-- Deploy essential services: **Active Directory, DHCP, DNS, VPN**  
-- Implement **network security measures**: Firewall, Access Control, VPN  
-- Build **real-time monitoring and alert system** for servers and network devices  
-- Provide **documentation and configuration files** for maintenance and scalability  
+## 🎯 Key Objectives
+- Design a **structured and segmented LAN** by department (HR, Finance, IT, Guest Wi-Fi)
+- Deploy essential **core services**: Active Directory, DHCP, DNS, VPN
+- Implement **security layers**: Firewall, Access Control Lists (ACLs), VPN encryption
+- Integrate **intelligent monitoring** tools for proactive maintenance
+- Deliver complete **network documentation and configuration files**
 
 ---
 
 ## ⚙️ Technologies & Tools
 | Category | Tools |
-|----------|-------|
-| Network | Cisco Packet Tracer, GNS3 |
-| Servers | Windows Server, Linux Ubuntu Server |
-| Security | pfSense/Fortigate Firewall, VPN, Access Control |
-| Monitoring | Zabbix, PRTG, Wireshark |
-| Virtualization | VMware, VirtualBox |
-| Scripting & Automation | Python, PowerShell |
+|-----------|-------|
+| **Network Simulation** | Cisco Packet Tracer, GNS3 |
+| **Server Management** | Windows Server 2022, Ubuntu Server |
+| **Security** | pfSense, Fortigate Firewall, VPN |
+| **Monitoring** | Zabbix, PRTG, Wireshark |
+| **Virtualization** | VMware, VirtualBox |
+| **Automation** | Python, PowerShell scripting |
 
 ---
 
 ## 🖥️ Network Architecture
-- **Router Cisco ISR** – Main gateway and inter-VLAN routing  
-- **Layer 3 Switches** – Inter-VLAN communication  
-- **Layer 2 Switches** – Department distribution  
+- **Cisco Router (ISR)** – Core routing and Internet access  
+- **Layer 3 Switch** – Inter-VLAN routing and traffic segmentation  
+- **Layer 2 Switches** – Departmental distribution  
 - **Windows Server** – Active Directory, DHCP, DNS  
-- **VPN Server** – Secure remote access for employees  
-- **Firewall** – Network protection and traffic filtering  
-- **Wi-Fi Access Points** – Secure wireless connectivity  
+- **pfSense VPN Server** – Secure remote access for staff  
+- **Firewall & ACLs** – Protection from internal and external threats  
+- **Wi-Fi Access Points** – Secure wireless access across departments  
 
-> ⚠️ *Insert your network diagram in `Diagrams/network_topology.png`*
+> 📍 *The network diagram is available at `Diagrams/network_topology.png`.*
 
 ---
 
@@ -50,30 +50,31 @@ It includes **network segmentation, server management, VPN access, and intellige
 
 ---
 
-## 🔐 Security Recommendations
-- Isolate VLANs between departments  
-- Enforce **strong passwords and regular updates**  
-- Enable **VPN** for secure remote connections  
-- Implement **backup and patch management procedures**  
+## 🔐 Security Best Practices
+- VLAN isolation between departments  
+- Strong password and user policy enforcement  
+- Regular updates and patch management  
+- VPN-only remote access  
+- Log analysis and intrusion alerts via Zabbix  
 
 ---
 
 ## 🧩 Implementation Steps
-1. Requirement analysis & network planning  
-2. Physical and logical topology design  
-3. Hardware installation and configuration  
-4. VLANs, routing, DHCP, DNS, VPN setup  
-5. Security implementation (firewall, access control)  
-6. Monitoring, testing, and troubleshooting  
-7. Documentation and final report  
+1. Define requirements and business constraints  
+2. Create logical and physical network topologies  
+3. Configure routers, switches, and servers  
+4. Deploy VLANs, DHCP, DNS, and VPN  
+5. Implement firewall rules and access controls  
+6. Configure monitoring (Zabbix, Syslog)  
+7. Test, document, and deliver the final infrastructure  
 
 ---
 
-## 📊 Expected Outcomes
-- **Stable connectivity** between all departments  
-- **Secure remote access** for authorized users  
-- **Optimized server and network performance**  
-- **Scalable infrastructure** ready for company growth  
+## 📊 Results & Impact
+- **Reliable and secure connectivity** across all departments  
+- **Centralized IT management** reducing administrative workload  
+- **Enhanced data protection** through layered security  
+- **Scalable architecture** ready for future expansion  
 
 ---
 
@@ -82,9 +83,10 @@ It includes **network segmentation, server management, VPN access, and intellige
 Specialized Technician in Digital Infrastructures  
 📍 Essaouira, Morocco  
 📧 youssefchbikim@gmail.com  
-[LinkedIn](https://www.linkedin.com/in/youssef-chbiki)
+🔗 [LinkedIn](https://www.linkedin.com/in/youssef-chbiki)
 
 ---
+
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 ![Network](https://img.shields.io/badge/Focus-Networking-blue)
 ![Security](https://img.shields.io/badge/Security-Enabled-red)
